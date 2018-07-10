@@ -1,0 +1,8 @@
+RewriteEngine on
+
+# Enforce SSL https://www. 
+#RewriteCond %{HTTPS} !=on
+#RewriteRule ^.*$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+RewriteCond $1 !^(index\.php|assets|favicon.ico|styles|fonts|images|js|uploads|robots\.txt)
+RewriteRule ^(.*)$ /index.php/$1 [L]

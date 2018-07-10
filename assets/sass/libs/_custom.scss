@@ -1,0 +1,14 @@
+// Custom Scscc mixin here
+
+//Instead of typing width:200px; height:200px; just type @include size(200px); or @include size(20px,35px);
+@mixin size($width, $height: $width) {
+  width: $width;
+  height: $height;
+}
+
+//Box-shadow
+@mixin box-shadow-cs($shadows...) {
+  -moz-box-shadow: $shadows;
+  -webkit-box-shadow: $shadows;
+  box-shadow: $shadows;
+}
