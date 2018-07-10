@@ -1,5 +1,5 @@
-# exclusiverepaires
-A open source FREE mobile / cell phone repair jobs management and invoicing software. 
+# Exclusive Repairs
+An open source FREE mobile / cell phone repair jobs management and invoicing software. 
 
 ## Core Features:
 * Dashboard Reporting
