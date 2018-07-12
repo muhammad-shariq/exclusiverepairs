@@ -14,6 +14,10 @@ An open source FREE mobile / cell phone repair jobs management and invoicing sof
 * Easy interface with basic features
 * 100% open source software you are free to extend or modify.
 
+## DEMO
+http://exclusiveunlock.co.uk/repairs/index.php/job
+* Username: admin
+* Password: demo1234
 
 ## Installation:
 1. Create database with name `exclusiverepairs`.
