@@ -19,6 +19,9 @@ http://exclusiveunlock.co.uk/repairs/index.php/job
 * Username: admin
 * Password: demo1234
 
+## Video
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/PSkUD1JIRP0/0.jpg)](https://youtu.be/PSkUD1JIRP0)
+
 ## Installation:
 1. Create database with name `exclusiverepairs`.
 2. Import database file `database/db.sql`.
