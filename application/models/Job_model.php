@@ -185,7 +185,7 @@ class Job_model extends CI_Model
 
     public function email_data($job_id)
     {
-        $this->db->select("{$this->table}.id, {$this->table}.receive_date, {$this->table_customer}.name, {$this->table_customer}.email")
+        $this->db->select("{$this->table}.id, {$this->table}.receive_date, {$this->table}.delivery_date, {$this->table_customer}.name, {$this->table_customer}.email")
         ->from($this->table)
         ->join($this->table_customer, "{$this->table}.customer_id={$this->table_customer}.id", 'inner')
         ->where("{$this->table}.id", $job_id);

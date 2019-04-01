@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 <link rel="shortcut icon" href="<?php echo base_url(); ?>assets/favicon.ico" type="image/x-icon">
 <link rel="icon" href="<?php echo base_url(); ?>assets/favicon.ico" type="image/x-icon">
-<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel='stylesheet' type='text/css'>
 <link href="<?php echo base_url(); ?>assets/styles/styles.css" rel="stylesheet">
 <link href="<?php echo base_url(); ?>assets/styles/bootstrap.min.css" rel="stylesheet">
 <link href="<?php echo base_url(); ?>assets/styles/font-awesome.min.css" rel="stylesheet">
@@ -19,7 +19,7 @@
 <link href="<?php echo base_url(); ?>assets/styles/chosen.css" rel="stylesheet">
 
 <!--Scripts--> 
-<script type="text/javascript" src="http://code.jquery.com/jquery-1.12.0.min.js"></script> 
+<script type="text/javascript" src="//code.jquery.com/jquery-1.12.0.min.js"></script> 
 <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery-migrate-1.3.0.min.js"></script> 
 </head>
 <body>
